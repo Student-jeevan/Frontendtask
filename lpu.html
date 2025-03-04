@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-gray-300 h-screen flex">
+        <div class="w-1/2 h-screen bg-white flex justify-center items-center">
+            <img src="https://files.lpu.in//umsweb//Events//umseventAssets//27273_2025_2_11_9_30.jpg" alt="Image">
+        </div>
+        <div class="w-1/2 h-screen flex justify-center items-center bg-gray-200">
+            <div class="w-120 h-100 p-6 bg-white shadow-lg rounded-lg">
+                <form action="/submit" method="post">
+                   <div class=" flex justify-between justify-start">
+                    <h1 class="text-4xl">Log in</h1>
+                    <h1 class="pl-10">
+                    <select name="options" class="p-2 border border-gray-300 rounded-md w-50 h-10 bg-gray-100">
+                        <option value="option1">Headoffice</option>
+                        <option value="option2">Option 2</option>
+                    </select>
+                    </h1>
+                    </div>
+                    <label for="name" class="block m-8"></label>
+                    <input type="text" id="name" name="name" placeholder="User ID" required class="w-full p-2 border border-gray-300 rounded-md mb-4 bg-gray-100 text-xl">
+        
+                    <label for="password" class="block m-8"></label>
+                    <input type="password" id="password" name="password" placeholder="Password"  class="w-full p-2 border border-gray-300 rounded-md mb-4 bg-gray-100 text-xl">
+        
+                    <div class="flex justify-end"><h1 class="text-blue-500 text-sm m-4">Forgot your password?</h1></div>
+        
+                    <input type="submit" value="Submit" class="w-full bg-blue-500 text-white text-2xl p-2  rounded-md cursor-pointer hover:bg-blue-600">
+                </form>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>                  
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
